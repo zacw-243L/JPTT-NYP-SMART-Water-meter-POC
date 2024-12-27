@@ -35,6 +35,11 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
    The Username and Password are `admin` and `%mkZhU305la*` respectively.
 
+   ![image](https://github.com/user-attachments/assets/b237a836-31c8-46ab-8525-36a7c0266e4f)
+
+   On successful login, you should see the above image.
+
+
 ## Things Tested to be Working
   1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
    
