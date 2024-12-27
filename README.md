@@ -49,6 +49,10 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       
       ![image](https://github.com/user-attachments/assets/e09494f7-3c5d-4f94-ad7a-a144e1abf49c)
 
+      Then you download the .bat file from [One Click Sign in .bat file](https://github.com/zacw-243L/JPTT-NYP-SMART-Water-meter-POC/tree/main/One%20Click%20Sign%20in%20.bat%20file) into your PC.<br>
+      
+      Take note if the IP address of the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway changes, if it dose you might have to edit the .bat file. The Gateway's current IP is currently: `192.168.50.87`
+
    
    3. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
 
