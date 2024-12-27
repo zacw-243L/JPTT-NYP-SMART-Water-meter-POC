@@ -27,19 +27,21 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
 
 
-   so for the iFemtoCell-evolution LoRaWAN® Indoor Gateway you should be using `https://klk-fevo-040663.local` or `https://klk-fevo-040663/` in this case as the Gateway's EUI is `7076FF0066040663`. <br>
+      so for the iFemtoCell-evolution LoRaWAN® Indoor Gateway you should be using `https://klk-fevo-040663.local` or `https://klk-fevo-040663/` in this case as the Gateway's EUI is `7076FF0066040663`. <br>
 
-   If the above dose not work, try using local or direct connection to the gateway using a USB C cable. you may access the local interface with `https://192.168.120.1/`<br>
+      If the above dose not work, try using local or direct connection to the gateway using a USB C cable. you may access the local interface with `https://192.168.120.1/`<br>
    
-   You should see this page once the links load.
+      You should see this page once the links load.
 
-   ![image](https://github.com/user-attachments/assets/b4acdc18-4c87-46e2-8248-5f221dd280e3)
+      ![image](https://github.com/user-attachments/assets/b4acdc18-4c87-46e2-8248-5f221dd280e3)
 
-   The Username and Password are `admin` and `%mkZhU305la*` respectively.
+      The Username and Password are `admin` and `%mkZhU305la*` respectively.
 
-   ![image](https://github.com/user-attachments/assets/b237a836-31c8-46ab-8525-36a7c0266e4f)
+      ![image](https://github.com/user-attachments/assets/b237a836-31c8-46ab-8525-36a7c0266e4f)
 
-   On successful login, you should see the above image.
+      On successful login, you should see the above image.
+
+   2. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.
 
 
 ## Things Tested to be Working
