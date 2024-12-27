@@ -25,7 +25,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       | Wirnet™ iZeptoCell Cellular     | https://klk-zcel-XXXXXX.local     |
 <br>
 
-      so for the iFemtoCell-evolution LoRaWAN® Indoor Gateway you should be using `https://klk-fevo-040663.local` or `https://klk-fevo-040663/` in this case as the Gateway's EUI is `7076FF0066040663`
+   so for the iFemtoCell-evolution LoRaWAN® Indoor Gateway you should be using `https://klk-fevo-040663.local` or `https://klk-fevo-040663/` in this case as the Gateway's EUI is `7076FF0066040663`
 
 
 ## Things Tested to be Working
