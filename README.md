@@ -40,12 +40,17 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       ![image](https://github.com/user-attachments/assets/b237a836-31c8-46ab-8525-36a7c0266e4f)
 
       On successful login, you should see the above image.
+      
+   2. SSH Key has already been provided to the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
 
-   2. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
+      All you have to do is to install the files from [SSH Key folder](https://github.com/zacw-243L/JPTT-NYP-SMART-Water-meter-POC/tree/main/SSH%20Key) into `C:\Users\<username>\.ssh`.
+   
+   3. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
 
       Verification:
    
       ![image](https://github.com/user-attachments/assets/480717c5-328c-4ed4-977b-bf9a741cac20)
+
 
 
 
