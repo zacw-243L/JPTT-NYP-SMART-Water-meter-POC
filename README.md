@@ -10,7 +10,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
 ## Things that have been done
    1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.
-      ### How to login to the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things using the WebUI
+      ### How to login to the Kerlink LoRaWAN® Indoor Gateway using the WebUI
 
 ## Things Tested to be Working
   1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
