@@ -11,6 +11,9 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 ## Things that have been done
 
 ## Things Tested to be Working
+  1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
+  2. James Monroe
+  3. John Quincy Adams
 
 ## Things to do
 
