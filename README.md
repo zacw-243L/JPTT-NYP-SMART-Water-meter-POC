@@ -53,8 +53,22 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       
       Take note if the IP address of the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway changes, if it dose you might have to edit the .bat file. The Gateway's current IP is currently: `192.168.50.87`
 
+      On the first time sign in:
+      
+      ![image](https://github.com/user-attachments/assets/7128f66f-75ac-4382-b42a-72aa7243cec7)
+      
+      Type `yes` and hit the enter key on your keyboard
+      
+      ![image](https://github.com/user-attachments/assets/c26d4130-f366-41e2-a2e6-a4523e486238)
+
+      you are now logged in.
+
+      On subsequent logins:
+      
+      ![image](https://github.com/user-attachments/assets/c70d065b-b037-423a-b667-5e922963eb97)
+ 
    
-   3. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
+   4. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
 
       Verification:
    
