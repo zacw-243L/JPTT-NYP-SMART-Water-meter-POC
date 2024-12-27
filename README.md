@@ -15,6 +15,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       1. Web interface can be reached using gateway hostname or from a local fixed IP address.
       2. Wirnet™ gateways hostnames are deduced from their board ID, with `XXXXXX` replaced by the six hexadecimal digits from the serial number (Board_ID or EUI):<br>
 
+
       | Gateway model                   | URL template                      |
       |---------------------------------|------------------------------------|
       | Wirnet™ iFemtoCell              | https://klk-wifc-XXXXXX.local     |
@@ -22,6 +23,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
       | Wirnet™ iFemtoCell-evolution    | https://klk-fevo-XXXXXX.local     |
       | Wirnet™ iZeptoCell Ethernet     | https://klk-zeth-XXXXXX.local     |
       | Wirnet™ iZeptoCell Cellular     | https://klk-zcel-XXXXXX.local     |
+
 
 ## Things Tested to be Working
   1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
