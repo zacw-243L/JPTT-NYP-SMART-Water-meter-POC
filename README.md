@@ -13,10 +13,17 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 ## Things Tested to be Working
   1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
 
-      ![Gateway is able to connect and send reading to the Network server](https://cdn.discordapp.com/attachments/666917440910786581/1322043014260064379/B828GgAAAAAElFTkSuQmCC.png?ex=676f7000&is=676e1e80&hm=45ab37022e6dc028a588ccfa724dd8ce5ff5355f453452693c4ee2c13b6daa14&)
+      ![Gateway can connect and send reading to the Network server](https://cdn.discordapp.com/attachments/666917440910786581/1322043014260064379/B828GgAAAAAElFTkSuQmCC.png?ex=676f7000&is=676e1e80&hm=45ab37022e6dc028a588ccfa724dd8ce5ff5355f453452693c4ee2c13b6daa14&)
   
-2. Ability to send data from the Network server on The Things Industries to an [IoT platform](https://wiki.thingseye.io/xwiki/bin/view/Main/Get%20ThingsEye%20Account/) of choice 
-  3. John Quincy Adams
+2. Ability to send data from the Network server on The Things Industries to an [IoT platform](https://wiki.thingseye.io/xwiki/bin/view/Main/Get%20ThingsEye%20Account/) of choice
+   
+     ![Data from the Network server can be sent to IoT Platform](https://cdn.discordapp.com/attachments/666917440910786581/1322044186903707688/0N13IAAAAAElFTkSuQmCC.png?ex=676f7118&is=676e1f98&hm=cb1835045201b62976eca806da7fd323b44f495976ff1e003de117e88ee995fb&)
+
+3. Ability to modify and create new widgets to make raw data more useful on the IoT platform of choice 
+
+   ![Data from the Network server can be sent to IoT Platform](https://cdn.discordapp.com/attachments/666917440910786581/1322043104517423186/xr6zxJkiRJkiRJcm3644KHuPPEveu8PyqYJEmSJEmSJK9M73gwEfw28u584t3z4w322c5IkSZIkSZK8Ur3jOUmSJEmSJEmyU73jOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkS..png?ex=676f7016&is=676e1e96&hm=1e6b01417b84202f6ec4643f064f8f82e066db60674ed63ab1b7f4f4433f448d&)
+   
+4. John Quincy Adams
 
 ## Things to do
 
