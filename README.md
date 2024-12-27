@@ -41,7 +41,12 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
       On successful login, you should see the above image.
 
-   2. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.
+   2. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
+
+   Verification:
+   
+   ![image](https://github.com/user-attachments/assets/480717c5-328c-4ed4-977b-bf9a741cac20)
+
 
 
 ## Things Tested to be Working
