@@ -12,7 +12,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
    1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.
       ### How to login to the Kerlink LoRaWAN® Indoor Gateway using the WebUI
       1. Web interface can be reached using gateway hostname or from a local fixed IP address.
-      2. Wirnet™ gateways hostnames are deduced from their board ID, with `XXXXXX` replaced by the six hexadecimal digits from the serial number (Board_ID or EUI):
+      2. Wirnet™ gateways hostnames are deduced from their board ID, with `XXXXXX` replaced by the six hexadecimal digits from the serial number (Board_ID or EUI):\
 
       | Gateway model                   | URL template                      |
       |---------------------------------|------------------------------------|
