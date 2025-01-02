@@ -91,7 +91,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
    ![Data from the Network server can be sent to IoT Platform](https://cdn.discordapp.com/attachments/666917440910786581/1322043104517423186/xr6zxJkiRJkiRJcm3644KHuPPEveu8PyqYJEmSJEmSJK9M73gwEfw28u584t3z4w322c5IkSZIkSZK8Ur3jOUmSJEmSJEmyU73jOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkS..png?ex=676f7016&is=676e1e96&hm=1e6b01417b84202f6ec4643f064f8f82e066db60674ed63ab1b7f4f4433f448d&)
 
-4. This specific [guide](https://github.com/kartben/thethingsstack-on-azure?tab=readme-ov-file) by [Kartben](https://github.com/kartben)
+4. This specific [guide](https://github.com/kartben/thethingsstack-on-azure?tab=readme-ov-file) on deploying The Things Stack v3 on Azure by [Kartben](https://github.com/kartben)
 
 5. Ability to connect to [The Things Stack](https://github.com/TheThingsNetwork/lorawan-stack), hosted on an [Azure](https://azure.microsoft.com/en-us/) VM, which is an open-source LoRaWAN network stack provided by [The Things Network](https://www.thethingsnetwork.org/)
    
