@@ -111,4 +111,6 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
    2. Environment variables: `env`
    3. Network status and protocol statistics: `netstat`
    4. IP routing table: `route -n`
-   5. IP Tables rules: `sudo iptables -L -v -n | more`   
+   5. IP Tables rules: `sudo iptables -L -v -n | more`
+   6. Find IP: `ifconfig`
+   7. Switch to root: `sudo -i`
