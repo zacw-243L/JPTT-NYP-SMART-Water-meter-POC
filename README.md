@@ -109,4 +109,5 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
    #### Useful commands for KerOS 6
    1. Firmware version: `cat /etc/os-release`
    2. Environment variables: `env`
-   3. Network status and protocol statistics: `netstat`   
+   3. Network status and protocol statistics: `netstat`
+   4. IP routing table: `route -n`   
