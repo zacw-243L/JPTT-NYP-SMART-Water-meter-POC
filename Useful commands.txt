@@ -1,0 +1,138 @@
+Putty method:
+User: `root`
+Password: `pdmk-040663`
+
+SSH config: cd C:\Users\ongza\.ssh
+Generate an SSH key: ssh-keygen (if need)
+
+
+Copy the key to the gateway: ssh -v -i C:\Users\<username>\.ssh\id_ed25519 admin@192.168.50.87
+                                                    ssh -i C:\Users\<username>\.ssh\id_ed25519 admin@192.168.50.87
+
+SSH method to tunnel into the LoRaWAN gateway
+
+Use this: `ssh admin@192.168.50.87` or `ssh -v admin@192.168.50.87`
+Password: `pdmk-040663` (if need)
+
+NOTE: only 192.168.120.1 is an fixed IP adressed
+
+KerOS 6
+____________
+check/switch/add repositories: cat /etc/apt/sources.list.d/keros-deb.list
+To update anything: sudo apt update
+Check CPU Information: lscpu
+Hardware overview: lshw -short
+View all installed packages: dpkg --get-selections | grep -v deinstall
+Verify that basicstation has been installed: dpkg -l | grep basicstation
+find IP: ifconfig or ip addr
+Using sudo to switch to root: sudo -i
+See connected stuff: netstat
+DNS reslove: cat /etc/resolv.conf
+View Network Connections: netstat -tuln
+Check General System Information: hostnamectl
+Check Disk Usage: df -h
+IP routing table: route -n
+
+klk_apps_config -h
+
+important 1: cd /user/basic_station/etc
+important 2: cd /user/basic_station/log 
+
+how to use SCP without the GUI from a computer: scp <file name be sure to be in the same dir as the file> root@<ip_address>:<path>
+SCP from remote to local: scp <remote ip adress>:<path> .
+
+
+upload the 2 .key files to /user/basic_station/etc/cups.key and /user/basic_station/etc/tc.key using scp
+
+sudo klk_bs_config --enable --lns-uri "wss://as1.cloud.thethings.industries:8887"
+sudo klk_bs_config --enable --cups-uri "https://yeahwhatamievendoing.as1.cloud.thethings.industries:434"
+
+sudo klk_bs_config --enable --cups-uri "https://ttnv3-stack-qb74lsxpnkb6u.southeastasia.cloudapp.azure.com:443"
+sudo klk_bs_config --enable --lns-uri "wss://ttnv3-stack-qb74lsxpnkb6u.southeastasia.cloudapp.azure.com:8887"
+
+see messages: cat /var/log/messages
+
+see messages being sent: tail -f /user/basic_station/log/station.log
+see LoRa data: tail -f /var/log/lora.log
+EUI: grep EUI /tmp/board_info.json
+KerOS Version: cat /etc/version
+Check: cat /tmp/calib_rf.json
+Check system: cat /tmp/sys_startup_status.json
+Check update status: cat /user/.update
+Clear: clear
+Plan the update for the next reboot: kerosd -u
+reboot: reboot
+electrical reboot: cat /proc/cmdline (The parameter sb_lock must be equal to 0. If it is not the case, please unplug and replug the alimentation cable of your gateway)
+lists the installed packages: opkg list-installed
+
+
+
+
+ls /var/log/
+Install Basic station package: sudo apt update && sudo apt install basicstation-ttn
+
+See Gateway's Public IP: curl -s https://ipinfo.io/ip
+
+cat /var/log/messages
+
+
+
+
+cat /etc/passwd
+
+List Currently Logged-In Users: who
+
+
+Check Azure-Specific Information: curl -H "Metadata: true" "http://169.254.169.254/metadata/instance?api-version=2021-02-01" | jq
+Confirm UDP port 1700 is listening: sudo netstat -anp | grep 1700
+View All Tables: sudo iptables-save
+View All Tables: sudo iptables -L -v -n | more
+
+TTN-CLI
+___________
+cd C:\Users\ongza\OneDrive\Desktop\lorawan-stack-cli_3.33.0_windows_386
+on Windows: ttn-lw-cli.exe login
+ttn-lw-cli end-devices set --application-id two --device-id eui-a84804e19f594817 --unset root-keys.nwk-key
+ttn-lw-cli end-devices get two backup1 --all
+ttn-lw-cli end-devices get two backup1 --locations
+ttn-lw-cli end-devices get two backup1 --attributes
+ttn-lw-cli end-devices get two backup1 --formatters 
+ttn-lw-cli end-devices get two backup1 --session
+ttn-lw-cli end-devices get two backup1 --picture
+See the actaul payload message: ttn-lw-cli events subscribe --application-id two --device-id backup1 --names as.up.data.forward
+ttn-lw-cli events subscribe --application-id two --device-id backup1 --names ns.up.data.forward
+See Round Trip time: ttn-lw-cli gateways connection-stats klk-7076ff0066040663
+
+
+Redis-CLI
+_________________
+How to get in: redis-cli -h <> -p 6379 -a <>
+Ping the server: PING
+
+VM
+___________
+ssh JPTT@ttnv3-stack-vawgafegmunli.southeastasia.cloudapp.azure.com
+ssh JPTT@23.98.92.108
+
+4 Databases
+
+postgres
+azure_maintenance
+azure_sys
+ttn_lorawan
+
+How get into the PostgreSQL single server:
+
+psql "host=<>s port=5432 dbname=<> user=<> password=<> sslmode=require"
+
+Success: ttn_lorawan=>
+
+List All Databases: \l
+List All Tables in the Current Database: \dt
+List All Schemas: \dn
+
+If you're viewing a table in the psql client and want to exit back to the command prompt, simply press:`q`
+
+journalctl -u lorafwd.service
+
+telnet 23.98.92.108 1700
