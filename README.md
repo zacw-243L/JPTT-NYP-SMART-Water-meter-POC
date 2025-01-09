@@ -76,6 +76,10 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
    
       ![image](https://github.com/user-attachments/assets/480717c5-328c-4ed4-977b-bf9a741cac20)
 
+   5. Kerlink Basic Station Packet Forwarder has been installed on the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
+
+      Added a small [compendium](https://github.com/zacw-243L/JPTT-NYP-SMART-Water-meter-POC/blob/main/Useful%20commands.txt) of useful commands from operating KerOS 6 to interacting with Azure VM and databases
+
 
 
 
