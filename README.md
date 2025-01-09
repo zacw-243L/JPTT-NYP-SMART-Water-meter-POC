@@ -9,7 +9,7 @@ The AIS01-LB can send the digital reading after recognized and it can also send 
 The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with standard LoRaWAN gateway.
 
 ## Things that have been done
-   1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.
+   1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.<br>
       This means that KerOS 5 is deprecated and should not used. 
       ### How to login to the Kerlink LoRaWAN® Indoor Gateway using the WebUI
 
