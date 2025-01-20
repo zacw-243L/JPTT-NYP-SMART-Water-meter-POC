@@ -91,7 +91,8 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
   
 2. Ability to send data from the Network server on The Things Industries to an [IoT platform](https://wiki.thingseye.io/xwiki/bin/view/Main/Get%20ThingsEye%20Account/) of choice
    
-     ![Data from the Network server can be sent to IoT Platform](https://cdn.discordapp.com/attachments/666917440910786581/1322044186903707688/0N13IAAAAAElFTkSuQmCC.png?ex=676f7118&is=676e1f98&hm=cb1835045201b62976eca806da7fd323b44f495976ff1e003de117e88ee995fb&)
+   ![Data from the Network server can be sent to IoT Platform](https://github.com/user-attachments/assets/02475e04-3165-4c4b-9062-917a5358fed0)
+
 
 3. Ability to modify and create new widgets to make raw data more useful on the IoT platform of choice 
 
