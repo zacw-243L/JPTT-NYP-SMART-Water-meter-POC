@@ -96,11 +96,12 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
 3. Ability to modify and create new widgets to make raw data more useful on the IoT platform of choice 
 
-   ![Data from the Network server can be sent to IoT Platform](https://cdn.discordapp.com/attachments/666917440910786581/1322043104517423186/xr6zxJkiRJkiRJcm3644KHuPPEveu8PyqYJEmSJEmSJK9M73gwEfw28u584t3z4w322c5IkSZIkSZK8Ur3jOUmSJEmSJEmyU73jOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkSbJTBZ6TJEmSJEmSJDtV4DlJkiRJkiRJslMFnpMkSZIkSZIkO1XgOUmSJEmSJEmyUwWekyRJkiRJkiQ7VeA5SZIkSZIkS..png?ex=676f7016&is=676e1e96&hm=1e6b01417b84202f6ec4643f064f8f82e066db60674ed63ab1b7f4f4433f448d&)
+   ![aijfUntitled-1](https://github.com/user-attachments/assets/5c0cf3a6-4431-477f-ad94-abbf7ba8c1bd)
 
-4. This specific [guide](https://github.com/kartben/thethingsstack-on-azure?tab=readme-ov-file) on deploying The Things Stack v3 on Azure by [Kartben](https://github.com/kartben)
 
-5. Ability to connect to [The Things Stack](https://github.com/TheThingsNetwork/lorawan-stack), hosted on an [Azure](https://azure.microsoft.com/en-us/) VM, which is an open-source LoRaWAN network stack provided by [The Things Network](https://www.thethingsnetwork.org/)
+5. This specific [guide](https://github.com/kartben/thethingsstack-on-azure?tab=readme-ov-file) on deploying The Things Stack v3 on Azure by [Kartben](https://github.com/kartben)
+
+6. Ability to connect to [The Things Stack](https://github.com/TheThingsNetwork/lorawan-stack), hosted on an [Azure](https://azure.microsoft.com/en-us/) VM, which is an open-source LoRaWAN network stack provided by [The Things Network](https://www.thethingsnetwork.org/)
    
    ![image](https://github.com/user-attachments/assets/82bacd50-d8f8-490c-ad67-c2fa84d1a165)
 
