@@ -86,7 +86,8 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 ## Things tested to be Working
   1. Ability to connect to [The Things Industries](https://www.thethingsindustries.com/) which is part of [The Things Network](https://www.thethingsnetwork.org/)
    
-      ![Gateway can connect and send reading to the Network server](https://cdn.discordapp.com/attachments/666917440910786581/1322043014260064379/B828GgAAAAAElFTkSuQmCC.png?ex=676f7000&is=676e1e80&hm=45ab37022e6dc028a588ccfa724dd8ce5ff5355f453452693c4ee2c13b6daa14&)
+     [Gateway can connect and send reading to the Network server](https://github.com/user-attachments/assets/9c5d5b8d-edff-4973-b75e-338a6b273358)
+
   
 2. Ability to send data from the Network server on The Things Industries to an [IoT platform](https://wiki.thingseye.io/xwiki/bin/view/Main/Get%20ThingsEye%20Account/) of choice
    
