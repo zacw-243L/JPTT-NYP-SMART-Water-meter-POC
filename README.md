@@ -11,6 +11,9 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
 ## Things that have been done
    1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been upgraded to KerOS 6.<br>
+
+      ![alkwf](https://github.com/user-attachments/assets/4ed195ba-79f9-42f1-8a01-4a364f5d4e87)
+
       This means that KerOS 5 is deprecated and should not used. 
       ### How to login to the Kerlink LoRaWAN® Indoor Gateway using the WebUI
 
@@ -43,7 +46,7 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
 
       On successful login, you should see the above image.
       
-   2. SSH Key has already been provided to the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
+   1. SSH Key has already been provided to the Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway.<br>
 
       All you have to do is to install the files from [SSH Key folder](https://github.com/zacw-243L/JPTT-NYP-SMART-Water-meter-POC/tree/main/SSH%20Key) into `C:\Users\<username>\.ssh`. <br>
 
