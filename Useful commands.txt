@@ -126,7 +126,7 @@ ttn_lorawan
 
 How get into the PostgreSQL single server:
 
-psql "host=ttnv3mpjv7hibrbafs-psql.postgres.database.azure.com port=5432 dbname=ttn_lorawan user=ttn_pguser@ttnv3mpjv7hibrbafs-psql password=K7@Zachary123 sslmode=require"
+psql "host=ttnv3mpjv7hibrbafs-psql.postgres.database.azure.com port=5432 dbname=ttn_lorawan user=ttn_pguser@ttnv3mpjv7hibrbafs-psql password=K7@Zachary123 sslmode=require" <alot of these can be swapped>
 
 Success: ttn_lorawan=>
 
