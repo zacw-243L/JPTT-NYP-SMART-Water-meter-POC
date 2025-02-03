@@ -31,6 +31,8 @@ DNS reslove: cat /etc/resolv.conf
 View Network Connections: netstat -tuln
 Check General System Information: hostnamectl
 Check Disk Usage: df -h
+Linux kernel version: cat /proc/version
+Firmware version: cat /etc/os-release
 IP routing table: route -n
 
 klk_apps_config -h
@@ -65,6 +67,7 @@ reboot: reboot
 electrical reboot: cat /proc/cmdline (The parameter sb_lock must be equal to 0. If it is not the case, please unplug and replug the alimentation cable of your gateway)
 lists the installed packages: opkg list-installed
 
+Password for like everything: K7@Zachary123
 
 
 
@@ -106,7 +109,7 @@ See Round Trip time: ttn-lw-cli gateways connection-stats klk-7076ff0066040663
 
 Redis-CLI
 _________________
-How to get in: redis-cli -h <> -p 6379 -a <>
+How to get in: redis-cli -h ttnv3qb74lsxpnkb6u-redis.redis.cache.windows.net -p 6379 -a R54kHqcYmdD73DH65Cv4SarfmX4UXMHC5AzCaMPL5Fs=
 Ping the server: PING
 
 VM
@@ -123,7 +126,7 @@ ttn_lorawan
 
 How get into the PostgreSQL single server:
 
-psql "host=<>s port=5432 dbname=<> user=<> password=<> sslmode=require"
+psql "host=ttnv3mpjv7hibrbafs-psql.postgres.database.azure.com port=5432 dbname=ttn_lorawan user=ttn_pguser@ttnv3mpjv7hibrbafs-psql password=K7@Zachary123 sslmode=require"
 
 Success: ttn_lorawan=>
 
