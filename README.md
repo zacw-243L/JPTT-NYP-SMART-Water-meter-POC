@@ -110,6 +110,9 @@ The AIS01-LB is fully compatible with LoRaWAN v1.0.3 protocol, it can work with 
    ![image](https://github.com/user-attachments/assets/82bacd50-d8f8-490c-ad67-c2fa84d1a165)
 
 ## Things to do
+   1. Redis to Power BI connection
+   2. A more permanent solution to host the required network and database servers
+   3. Decipher how the data is being stored and what its being stored as 
 
 ### Notes
 1. Kerlink WirnetTM iFemtoCell-evolution LoRaWAN® Indoor Gateway for the Internet of Things has been setup already just use the Password above.
